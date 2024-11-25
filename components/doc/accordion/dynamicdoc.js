@@ -56,7 +56,7 @@ export default function DynamicDemo() {
     const createDynamicTabs = () => {
         return tabs.map((tab, i) => {
             return (
-                <AccordionTab key={tab.header} header={tab.header} disabled={tab.disabled}>
+                <AccordionTab key={tab.header} header={tab.header}>
                     {tab.children}
                 </AccordionTab>
             );
@@ -93,7 +93,7 @@ export default function DynamicDemo() {
     const createDynamicTabs = () => {
         return tabs.map((tab, i) => {
             return (
-                <AccordionTab key={tab.header} header={tab.header} disabled={tab.disabled}>
+                <AccordionTab key={tab.header} header={tab.header}>
                     {tab.children}
                 </AccordionTab>
             );
