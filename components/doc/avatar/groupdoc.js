@@ -20,7 +20,6 @@ export function GroupDoc(props) {
 import React from 'react'; 
 import { Avatar } from 'primereact/avatar';
 import { AvatarGroup } from 'primereact/avatargroup';
-import { Badge } from 'primereact/badge';
 
 export default function GroupDemo() {
 
@@ -42,7 +41,6 @@ export default function GroupDemo() {
 import React from 'react'; 
 import { Avatar } from 'primereact/avatar';
 import { AvatarGroup } from 'primereact/avatargroup';
-import { Badge } from 'primereact/badge';
 
 export default function GroupDemo() {
 
